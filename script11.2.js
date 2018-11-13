@@ -13,12 +13,12 @@ ar.splice(3, 1);
 console.log('new ar = ', ar)
 
 var newAr = ar.filter(function(item){
-    return typeof (item) === "number"
+    return typeof (item) === "number";
 });
 console.log('new ar = ', newAr)
 
-var mapMeth = ar.map(function(newOne) {
-    return Math.pow(newOne, 2) 
+var mapMeth = newAr.map(function(newOne) {
+    return Math.pow(newOne, 2); 
 });
 console.log('new ar = ',mapMeth)
 
